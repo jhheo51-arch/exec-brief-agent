@@ -7,7 +7,7 @@ from .schema import fill
 CSS = """
 @page { size: A4 landscape; margin: 0 }
 * { box-sizing: border-box; margin: 0 }
-body { font-family: Pretendard, 'Malgun Gothic', sans-serif; color: #262626; background: #fff }
+body { font-family: Pretendard, 'Malgun Gothic', sans-serif; color: #262626; background: #fff; word-break: keep-all }
 .sheet { width: 297mm; height: 210mm; padding: 14mm 16mm; display: flex; flex-direction: column; gap: 6mm }
 .top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #262626; padding-bottom: 3mm }
 .top h1 { font-size: 13pt; font-weight: 700 } .top span { font-size: 9pt; color: #666 }
